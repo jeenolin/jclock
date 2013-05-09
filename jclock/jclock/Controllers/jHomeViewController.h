@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "jBaseViewController.h"
+
+@class MGScrollView, PhotoBox;
+
 @interface jHomeViewController : jBaseViewController
+
+@property (nonatomic, retain) IBOutlet MGScrollView *scroller;
+
+- (PhotoBox *)photoAddBox;
+- (BOOL)allPhotosLoaded;
 
 @end

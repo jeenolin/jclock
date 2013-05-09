@@ -38,6 +38,51 @@
 		39E30794173A97F0006CE375 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E30792173A97F0006CE375 /* AboutViewController.m */; };
 		39E30797173A97FB006CE375 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E30796173A97FB006CE375 /* SettingViewController.m */; };
 		39E30798173A97FB006CE375 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E30796173A97FB006CE375 /* SettingViewController.m */; };
+		39E307BE173BF772006CE375 /* NSAttributedString+MGTrim.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E3079D173BF772006CE375 /* NSAttributedString+MGTrim.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		39E307BF173BF772006CE375 /* NSAttributedString+MGTrim.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E3079D173BF772006CE375 /* NSAttributedString+MGTrim.m */; };
+		39E307C0173BF772006CE375 /* NSObject+MGEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E3079F173BF772006CE375 /* NSObject+MGEvents.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		39E307C1173BF772006CE375 /* NSObject+MGEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E3079F173BF772006CE375 /* NSObject+MGEvents.m */; };
+		39E307C2173BF772006CE375 /* UIColor+MGExpanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307A1173BF772006CE375 /* UIColor+MGExpanded.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		39E307C3173BF772006CE375 /* UIColor+MGExpanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307A1173BF772006CE375 /* UIColor+MGExpanded.m */; };
+		39E307C4173BF772006CE375 /* UIControl+MGEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307A3173BF772006CE375 /* UIControl+MGEvents.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		39E307C5173BF772006CE375 /* UIControl+MGEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307A3173BF772006CE375 /* UIControl+MGEvents.m */; };
+		39E307C6173BF772006CE375 /* UIResponder+FirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307A5173BF772006CE375 /* UIResponder+FirstResponder.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		39E307C7173BF772006CE375 /* UIResponder+FirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307A5173BF772006CE375 /* UIResponder+FirstResponder.m */; };
+		39E307C8173BF772006CE375 /* UIView+MGEasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307A7173BF772006CE375 /* UIView+MGEasyFrame.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		39E307C9173BF772006CE375 /* UIView+MGEasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307A7173BF772006CE375 /* UIView+MGEasyFrame.m */; };
+		39E307CA173BF772006CE375 /* MGBlockWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307AA173BF772006CE375 /* MGBlockWrapper.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		39E307CB173BF772006CE375 /* MGBlockWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307AA173BF772006CE375 /* MGBlockWrapper.m */; };
+		39E307CC173BF772006CE375 /* MGBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307AC173BF772006CE375 /* MGBox.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		39E307CD173BF772006CE375 /* MGBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307AC173BF772006CE375 /* MGBox.m */; };
+		39E307CE173BF772006CE375 /* MGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307AE173BF772006CE375 /* MGButton.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		39E307CF173BF772006CE375 /* MGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307AE173BF772006CE375 /* MGButton.m */; };
+		39E307D0173BF772006CE375 /* MGLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307B1173BF772006CE375 /* MGLayoutManager.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		39E307D1173BF772006CE375 /* MGLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307B1173BF772006CE375 /* MGLayoutManager.m */; };
+		39E307D2173BF772006CE375 /* MGLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307B3173BF772006CE375 /* MGLine.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		39E307D3173BF772006CE375 /* MGLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307B3173BF772006CE375 /* MGLine.m */; };
+		39E307D4173BF772006CE375 /* MGLineStyled.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307B5173BF772006CE375 /* MGLineStyled.m */; };
+		39E307D5173BF772006CE375 /* MGLineStyled.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307B5173BF772006CE375 /* MGLineStyled.m */; };
+		39E307D6173BF772006CE375 /* MGMushParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307B7173BF772006CE375 /* MGMushParser.m */; };
+		39E307D7173BF772006CE375 /* MGMushParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307B7173BF772006CE375 /* MGMushParser.m */; };
+		39E307D8173BF772006CE375 /* MGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307B9173BF772006CE375 /* MGScrollView.m */; };
+		39E307D9173BF772006CE375 /* MGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307B9173BF772006CE375 /* MGScrollView.m */; };
+		39E307DA173BF772006CE375 /* MGTableBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307BB173BF772006CE375 /* MGTableBox.m */; };
+		39E307DB173BF772006CE375 /* MGTableBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307BB173BF772006CE375 /* MGTableBox.m */; };
+		39E307DC173BF772006CE375 /* MGTableBoxStyled.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307BD173BF772006CE375 /* MGTableBoxStyled.m */; };
+		39E307DD173BF772006CE375 /* MGTableBoxStyled.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307BD173BF772006CE375 /* MGTableBoxStyled.m */; };
+		39E307DF173BF8AD006CE375 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E307DE173BF8AD006CE375 /* CoreText.framework */; };
+		39E307E4173BF90F006CE375 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307E1173BF90F006CE375 /* DemoViewController.m */; };
+		39E307E5173BF90F006CE375 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307E1173BF90F006CE375 /* DemoViewController.m */; };
+		39E307E6173BF90F006CE375 /* PhotoBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307E3173BF90F006CE375 /* PhotoBox.m */; };
+		39E307E7173BF90F006CE375 /* PhotoBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E307E3173BF90F006CE375 /* PhotoBox.m */; };
+		39E307ED173BFF0D006CE375 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E307E9173BFF0D006CE375 /* add.png */; };
+		39E307EE173BFF0D006CE375 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E307E9173BFF0D006CE375 /* add.png */; };
+		39E307EF173BFF0D006CE375 /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E307EA173BFF0D006CE375 /* add@2x.png */; };
+		39E307F0173BFF0D006CE375 /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E307EA173BFF0D006CE375 /* add@2x.png */; };
+		39E307F1173BFF0D006CE375 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E307EB173BFF0D006CE375 /* arrow.png */; };
+		39E307F2173BFF0D006CE375 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E307EB173BFF0D006CE375 /* arrow.png */; };
+		39E307F3173BFF0D006CE375 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E307EC173BFF0D006CE375 /* arrow@2x.png */; };
+		39E307F4173BFF0D006CE375 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E307EC173BFF0D006CE375 /* arrow@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +133,49 @@
 		39E30792173A97F0006CE375 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = jclock/Controllers/FlashLight/AboutViewController.m; sourceTree = SOURCE_ROOT; };
 		39E30795173A97FB006CE375 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		39E30796173A97FB006CE375 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		39E3079C173BF772006CE375 /* NSAttributedString+MGTrim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MGTrim.h"; sourceTree = "<group>"; };
+		39E3079D173BF772006CE375 /* NSAttributedString+MGTrim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MGTrim.m"; sourceTree = "<group>"; };
+		39E3079E173BF772006CE375 /* NSObject+MGEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MGEvents.h"; sourceTree = "<group>"; };
+		39E3079F173BF772006CE375 /* NSObject+MGEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MGEvents.m"; sourceTree = "<group>"; };
+		39E307A0173BF772006CE375 /* UIColor+MGExpanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MGExpanded.h"; sourceTree = "<group>"; };
+		39E307A1173BF772006CE375 /* UIColor+MGExpanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MGExpanded.m"; sourceTree = "<group>"; };
+		39E307A2173BF772006CE375 /* UIControl+MGEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+MGEvents.h"; sourceTree = "<group>"; };
+		39E307A3173BF772006CE375 /* UIControl+MGEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+MGEvents.m"; sourceTree = "<group>"; };
+		39E307A4173BF772006CE375 /* UIResponder+FirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+FirstResponder.h"; sourceTree = "<group>"; };
+		39E307A5173BF772006CE375 /* UIResponder+FirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+FirstResponder.m"; sourceTree = "<group>"; };
+		39E307A6173BF772006CE375 /* UIView+MGEasyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MGEasyFrame.h"; sourceTree = "<group>"; };
+		39E307A7173BF772006CE375 /* UIView+MGEasyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MGEasyFrame.m"; sourceTree = "<group>"; };
+		39E307A8173BF772006CE375 /* MGBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGBase.h; sourceTree = "<group>"; };
+		39E307A9173BF772006CE375 /* MGBlockWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGBlockWrapper.h; sourceTree = "<group>"; };
+		39E307AA173BF772006CE375 /* MGBlockWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGBlockWrapper.m; sourceTree = "<group>"; };
+		39E307AB173BF772006CE375 /* MGBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGBox.h; sourceTree = "<group>"; };
+		39E307AC173BF772006CE375 /* MGBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGBox.m; sourceTree = "<group>"; };
+		39E307AD173BF772006CE375 /* MGButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGButton.h; sourceTree = "<group>"; };
+		39E307AE173BF772006CE375 /* MGButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGButton.m; sourceTree = "<group>"; };
+		39E307AF173BF772006CE375 /* MGLayoutBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLayoutBox.h; sourceTree = "<group>"; };
+		39E307B0173BF772006CE375 /* MGLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLayoutManager.h; sourceTree = "<group>"; };
+		39E307B1173BF772006CE375 /* MGLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLayoutManager.m; sourceTree = "<group>"; };
+		39E307B2173BF772006CE375 /* MGLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLine.h; sourceTree = "<group>"; };
+		39E307B3173BF772006CE375 /* MGLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLine.m; sourceTree = "<group>"; };
+		39E307B4173BF772006CE375 /* MGLineStyled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLineStyled.h; sourceTree = "<group>"; };
+		39E307B5173BF772006CE375 /* MGLineStyled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLineStyled.m; sourceTree = "<group>"; };
+		39E307B6173BF772006CE375 /* MGMushParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMushParser.h; sourceTree = "<group>"; };
+		39E307B7173BF772006CE375 /* MGMushParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMushParser.m; sourceTree = "<group>"; };
+		39E307B8173BF772006CE375 /* MGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGScrollView.h; sourceTree = "<group>"; };
+		39E307B9173BF772006CE375 /* MGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGScrollView.m; sourceTree = "<group>"; };
+		39E307BA173BF772006CE375 /* MGTableBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTableBox.h; sourceTree = "<group>"; };
+		39E307BB173BF772006CE375 /* MGTableBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTableBox.m; sourceTree = "<group>"; };
+		39E307BC173BF772006CE375 /* MGTableBoxStyled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTableBoxStyled.h; sourceTree = "<group>"; };
+		39E307BD173BF772006CE375 /* MGTableBoxStyled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTableBoxStyled.m; sourceTree = "<group>"; };
+		39E307DE173BF8AD006CE375 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		39E307E0173BF90F006CE375 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		39E307E1173BF90F006CE375 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		39E307E2173BF90F006CE375 /* PhotoBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoBox.h; sourceTree = "<group>"; };
+		39E307E3173BF90F006CE375 /* PhotoBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoBox.m; sourceTree = "<group>"; };
+		39E307E9173BFF0D006CE375 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		39E307EA173BFF0D006CE375 /* add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add@2x.png"; sourceTree = "<group>"; };
+		39E307EB173BFF0D006CE375 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		39E307EC173BFF0D006CE375 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39E307DF173BF8AD006CE375 /* CoreText.framework in Frameworks */,
 				39E3077F173A8BE6006CE375 /* QuartzCore.framework in Frameworks */,
 				39E30738173A839F006CE375 /* UIKit.framework in Frameworks */,
 				39E3073A173A839F006CE375 /* Foundation.framework in Frameworks */,
@@ -118,6 +207,7 @@
 		39E3072B173A839F006CE375 = {
 			isa = PBXGroup;
 			children = (
+				39E307DE173BF8AD006CE375 /* CoreText.framework */,
 				39E3077E173A8BE6006CE375 /* QuartzCore.framework */,
 				39E3073D173A839F006CE375 /* jclock */,
 				39E3075B173A83A0006CE375 /* jclockTests */,
@@ -162,6 +252,7 @@
 		39E3073E173A839F006CE375 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				39E307E8173BFF0D006CE375 /* Images */,
 				39E3073F173A839F006CE375 /* jclock-Info.plist */,
 				39E30740173A839F006CE375 /* InfoPlist.strings */,
 				39E30743173A839F006CE375 /* main.m */,
@@ -205,6 +296,7 @@
 				39E3077B173A8ABD006CE375 /* jHomeViewController.m */,
 				39E30782173A8F1A006CE375 /* jBaseViewController.h */,
 				39E30783173A8F1A006CE375 /* jBaseViewController.m */,
+				39E30799173BEEF0006CE375 /* Home */,
 				39E30786173A97B2006CE375 /* About */,
 				39E30787173A97B2006CE375 /* FlashLight */,
 				39E30788173A97B2006CE375 /* Setting */,
@@ -222,6 +314,7 @@
 		39E30780173A8E37006CE375 /* Jee */ = {
 			isa = PBXGroup;
 			children = (
+				39E3079A173BF772006CE375 /* MGBox */,
 				39E30781173A8E4B006CE375 /* jBase.h */,
 			);
 			path = Jee;
@@ -252,6 +345,77 @@
 				39E30796173A97FB006CE375 /* SettingViewController.m */,
 			);
 			path = Setting;
+			sourceTree = "<group>";
+		};
+		39E30799173BEEF0006CE375 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		39E3079A173BF772006CE375 /* MGBox */ = {
+			isa = PBXGroup;
+			children = (
+				39E307E0173BF90F006CE375 /* DemoViewController.h */,
+				39E307E1173BF90F006CE375 /* DemoViewController.m */,
+				39E307E2173BF90F006CE375 /* PhotoBox.h */,
+				39E307E3173BF90F006CE375 /* PhotoBox.m */,
+				39E3079B173BF772006CE375 /* Categories */,
+				39E307A8173BF772006CE375 /* MGBase.h */,
+				39E307A9173BF772006CE375 /* MGBlockWrapper.h */,
+				39E307AA173BF772006CE375 /* MGBlockWrapper.m */,
+				39E307AB173BF772006CE375 /* MGBox.h */,
+				39E307AC173BF772006CE375 /* MGBox.m */,
+				39E307AD173BF772006CE375 /* MGButton.h */,
+				39E307AE173BF772006CE375 /* MGButton.m */,
+				39E307AF173BF772006CE375 /* MGLayoutBox.h */,
+				39E307B0173BF772006CE375 /* MGLayoutManager.h */,
+				39E307B1173BF772006CE375 /* MGLayoutManager.m */,
+				39E307B2173BF772006CE375 /* MGLine.h */,
+				39E307B3173BF772006CE375 /* MGLine.m */,
+				39E307B4173BF772006CE375 /* MGLineStyled.h */,
+				39E307B5173BF772006CE375 /* MGLineStyled.m */,
+				39E307B6173BF772006CE375 /* MGMushParser.h */,
+				39E307B7173BF772006CE375 /* MGMushParser.m */,
+				39E307B8173BF772006CE375 /* MGScrollView.h */,
+				39E307B9173BF772006CE375 /* MGScrollView.m */,
+				39E307BA173BF772006CE375 /* MGTableBox.h */,
+				39E307BB173BF772006CE375 /* MGTableBox.m */,
+				39E307BC173BF772006CE375 /* MGTableBoxStyled.h */,
+				39E307BD173BF772006CE375 /* MGTableBoxStyled.m */,
+			);
+			path = MGBox;
+			sourceTree = "<group>";
+		};
+		39E3079B173BF772006CE375 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				39E3079C173BF772006CE375 /* NSAttributedString+MGTrim.h */,
+				39E3079D173BF772006CE375 /* NSAttributedString+MGTrim.m */,
+				39E3079E173BF772006CE375 /* NSObject+MGEvents.h */,
+				39E3079F173BF772006CE375 /* NSObject+MGEvents.m */,
+				39E307A0173BF772006CE375 /* UIColor+MGExpanded.h */,
+				39E307A1173BF772006CE375 /* UIColor+MGExpanded.m */,
+				39E307A2173BF772006CE375 /* UIControl+MGEvents.h */,
+				39E307A3173BF772006CE375 /* UIControl+MGEvents.m */,
+				39E307A4173BF772006CE375 /* UIResponder+FirstResponder.h */,
+				39E307A5173BF772006CE375 /* UIResponder+FirstResponder.m */,
+				39E307A6173BF772006CE375 /* UIView+MGEasyFrame.h */,
+				39E307A7173BF772006CE375 /* UIView+MGEasyFrame.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		39E307E8173BFF0D006CE375 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				39E307E9173BFF0D006CE375 /* add.png */,
+				39E307EA173BFF0D006CE375 /* add@2x.png */,
+				39E307EB173BFF0D006CE375 /* arrow.png */,
+				39E307EC173BFF0D006CE375 /* arrow@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +493,10 @@
 				39E3074A173A839F006CE375 /* Default.png in Resources */,
 				39E3074C173A83A0006CE375 /* Default@2x.png in Resources */,
 				39E3074E173A83A0006CE375 /* Default-568h@2x.png in Resources */,
+				39E307ED173BFF0D006CE375 /* add.png in Resources */,
+				39E307EF173BFF0D006CE375 /* add@2x.png in Resources */,
+				39E307F1173BFF0D006CE375 /* arrow.png in Resources */,
+				39E307F3173BFF0D006CE375 /* arrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +505,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				39E30760173A83A0006CE375 /* InfoPlist.strings in Resources */,
+				39E307EE173BFF0D006CE375 /* add.png in Resources */,
+				39E307F0173BFF0D006CE375 /* add@2x.png in Resources */,
+				39E307F2173BFF0D006CE375 /* arrow.png in Resources */,
+				39E307F4173BFF0D006CE375 /* arrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +545,24 @@
 				39E3078F173A97D7006CE375 /* FlashLightViewController.m in Sources */,
 				39E30793173A97F0006CE375 /* AboutViewController.m in Sources */,
 				39E30797173A97FB006CE375 /* SettingViewController.m in Sources */,
+				39E307BE173BF772006CE375 /* NSAttributedString+MGTrim.m in Sources */,
+				39E307C0173BF772006CE375 /* NSObject+MGEvents.m in Sources */,
+				39E307C2173BF772006CE375 /* UIColor+MGExpanded.m in Sources */,
+				39E307C4173BF772006CE375 /* UIControl+MGEvents.m in Sources */,
+				39E307C6173BF772006CE375 /* UIResponder+FirstResponder.m in Sources */,
+				39E307C8173BF772006CE375 /* UIView+MGEasyFrame.m in Sources */,
+				39E307CA173BF772006CE375 /* MGBlockWrapper.m in Sources */,
+				39E307CC173BF772006CE375 /* MGBox.m in Sources */,
+				39E307CE173BF772006CE375 /* MGButton.m in Sources */,
+				39E307D0173BF772006CE375 /* MGLayoutManager.m in Sources */,
+				39E307D2173BF772006CE375 /* MGLine.m in Sources */,
+				39E307D4173BF772006CE375 /* MGLineStyled.m in Sources */,
+				39E307D6173BF772006CE375 /* MGMushParser.m in Sources */,
+				39E307D8173BF772006CE375 /* MGScrollView.m in Sources */,
+				39E307DA173BF772006CE375 /* MGTableBox.m in Sources */,
+				39E307DC173BF772006CE375 /* MGTableBoxStyled.m in Sources */,
+				39E307E4173BF90F006CE375 /* DemoViewController.m in Sources */,
+				39E307E6173BF90F006CE375 /* PhotoBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +579,24 @@
 				39E30790173A97D7006CE375 /* FlashLightViewController.m in Sources */,
 				39E30794173A97F0006CE375 /* AboutViewController.m in Sources */,
 				39E30798173A97FB006CE375 /* SettingViewController.m in Sources */,
+				39E307BF173BF772006CE375 /* NSAttributedString+MGTrim.m in Sources */,
+				39E307C1173BF772006CE375 /* NSObject+MGEvents.m in Sources */,
+				39E307C3173BF772006CE375 /* UIColor+MGExpanded.m in Sources */,
+				39E307C5173BF772006CE375 /* UIControl+MGEvents.m in Sources */,
+				39E307C7173BF772006CE375 /* UIResponder+FirstResponder.m in Sources */,
+				39E307C9173BF772006CE375 /* UIView+MGEasyFrame.m in Sources */,
+				39E307CB173BF772006CE375 /* MGBlockWrapper.m in Sources */,
+				39E307CD173BF772006CE375 /* MGBox.m in Sources */,
+				39E307CF173BF772006CE375 /* MGButton.m in Sources */,
+				39E307D1173BF772006CE375 /* MGLayoutManager.m in Sources */,
+				39E307D3173BF772006CE375 /* MGLine.m in Sources */,
+				39E307D5173BF772006CE375 /* MGLineStyled.m in Sources */,
+				39E307D7173BF772006CE375 /* MGMushParser.m in Sources */,
+				39E307D9173BF772006CE375 /* MGScrollView.m in Sources */,
+				39E307DB173BF772006CE375 /* MGTableBox.m in Sources */,
+				39E307DD173BF772006CE375 /* MGTableBoxStyled.m in Sources */,
+				39E307E5173BF90F006CE375 /* DemoViewController.m in Sources */,
+				39E307E7173BF90F006CE375 /* PhotoBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
