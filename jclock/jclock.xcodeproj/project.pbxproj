@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39E30738173A839F006CE375 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E30737173A839F006CE375 /* UIKit.framework */; };
+		39E3073A173A839F006CE375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E30739173A839F006CE375 /* Foundation.framework */; };
+		39E3073C173A839F006CE375 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E3073B173A839F006CE375 /* CoreGraphics.framework */; };
+		39E30742173A839F006CE375 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39E30740173A839F006CE375 /* InfoPlist.strings */; };
+		39E30744173A839F006CE375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E30743173A839F006CE375 /* main.m */; };
+		39E30748173A839F006CE375 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E30747173A839F006CE375 /* AppDelegate.m */; };
+		39E3074A173A839F006CE375 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E30749173A839F006CE375 /* Default.png */; };
+		39E3074C173A83A0006CE375 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E3074B173A83A0006CE375 /* Default@2x.png */; };
+		39E3074E173A83A0006CE375 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E3074D173A83A0006CE375 /* Default-568h@2x.png */; };
+		39E30756173A83A0006CE375 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E30755173A83A0006CE375 /* SenTestingKit.framework */; };
+		39E30757173A83A0006CE375 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E30737173A839F006CE375 /* UIKit.framework */; };
+		39E30758173A83A0006CE375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E30739173A839F006CE375 /* Foundation.framework */; };
+		39E30760173A83A0006CE375 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39E3075E173A83A0006CE375 /* InfoPlist.strings */; };
+		39E30763173A83A0006CE375 /* jclockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E30762173A83A0006CE375 /* jclockTests.m */; };
+		39E30770173A8A7F006CE375 /* DDMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E3076F173A8A7F006CE375 /* DDMenuController.m */; };
+		39E30771173A8A7F006CE375 /* DDMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E3076F173A8A7F006CE375 /* DDMenuController.m */; };
+		39E30774173A8A9E006CE375 /* jLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E30773173A8A9E006CE375 /* jLeftViewController.m */; };
+		39E30775173A8A9E006CE375 /* jLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E30773173A8A9E006CE375 /* jLeftViewController.m */; };
+		39E30778173A8AAD006CE375 /* jRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E30777173A8AAD006CE375 /* jRightViewController.m */; };
+		39E30779173A8AAD006CE375 /* jRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E30777173A8AAD006CE375 /* jRightViewController.m */; };
+		39E3077C173A8ABD006CE375 /* jHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E3077B173A8ABD006CE375 /* jHomeViewController.m */; };
+		39E3077D173A8ABD006CE375 /* jHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E3077B173A8ABD006CE375 /* jHomeViewController.m */; };
+		39E3077F173A8BE6006CE375 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E3077E173A8BE6006CE375 /* QuartzCore.framework */; };
+		39E30784173A8F1A006CE375 /* jBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E30783173A8F1A006CE375 /* jBaseViewController.m */; };
+		39E30785173A8F1A006CE375 /* jBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E30783173A8F1A006CE375 /* jBaseViewController.m */; };
+		39E3078F173A97D7006CE375 /* FlashLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E3078E173A97D7006CE375 /* FlashLightViewController.m */; };
+		39E30790173A97D7006CE375 /* FlashLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E3078E173A97D7006CE375 /* FlashLightViewController.m */; };
+		39E30793173A97F0006CE375 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E30792173A97F0006CE375 /* AboutViewController.m */; };
+		39E30794173A97F0006CE375 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E30792173A97F0006CE375 /* AboutViewController.m */; };
+		39E30797173A97FB006CE375 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E30796173A97FB006CE375 /* SettingViewController.m */; };
+		39E30798173A97FB006CE375 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E30796173A97FB006CE375 /* SettingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39E30759173A83A0006CE375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39E3072C173A839F006CE375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39E30733173A839F006CE375;
+			remoteInfo = jclock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39E30734173A839F006CE375 /* jclock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jclock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E30737173A839F006CE375 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39E30739173A839F006CE375 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39E3073B173A839F006CE375 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39E3073F173A839F006CE375 /* jclock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jclock-Info.plist"; sourceTree = "<group>"; };
+		39E30741173A839F006CE375 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39E30743173A839F006CE375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39E30745173A839F006CE375 /* jclock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jclock-Prefix.pch"; sourceTree = "<group>"; };
+		39E30746173A839F006CE375 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39E30747173A839F006CE375 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39E30749173A839F006CE375 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		39E3074B173A83A0006CE375 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		39E3074D173A83A0006CE375 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		39E30754173A83A0006CE375 /* jclockTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jclockTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E30755173A83A0006CE375 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		39E3075D173A83A0006CE375 /* jclockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jclockTests-Info.plist"; sourceTree = "<group>"; };
+		39E3075F173A83A0006CE375 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39E30761173A83A0006CE375 /* jclockTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jclockTests.h; sourceTree = "<group>"; };
+		39E30762173A83A0006CE375 /* jclockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jclockTests.m; sourceTree = "<group>"; };
+		39E3076E173A8A7F006CE375 /* DDMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMenuController.h; sourceTree = "<group>"; };
+		39E3076F173A8A7F006CE375 /* DDMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMenuController.m; sourceTree = "<group>"; };
+		39E30772173A8A9E006CE375 /* jLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jLeftViewController.h; sourceTree = "<group>"; };
+		39E30773173A8A9E006CE375 /* jLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jLeftViewController.m; sourceTree = "<group>"; };
+		39E30776173A8AAD006CE375 /* jRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jRightViewController.h; sourceTree = "<group>"; };
+		39E30777173A8AAD006CE375 /* jRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jRightViewController.m; sourceTree = "<group>"; };
+		39E3077A173A8ABD006CE375 /* jHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jHomeViewController.h; sourceTree = "<group>"; };
+		39E3077B173A8ABD006CE375 /* jHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jHomeViewController.m; sourceTree = "<group>"; };
+		39E3077E173A8BE6006CE375 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		39E30781173A8E4B006CE375 /* jBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jBase.h; sourceTree = "<group>"; };
+		39E30782173A8F1A006CE375 /* jBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jBaseViewController.h; sourceTree = "<group>"; };
+		39E30783173A8F1A006CE375 /* jBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jBaseViewController.m; sourceTree = "<group>"; };
+		39E3078D173A97D7006CE375 /* FlashLightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashLightViewController.h; sourceTree = "<group>"; };
+		39E3078E173A97D7006CE375 /* FlashLightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashLightViewController.m; sourceTree = "<group>"; };
+		39E30791173A97F0006CE375 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = jclock/Controllers/FlashLight/AboutViewController.h; sourceTree = SOURCE_ROOT; };
+		39E30792173A97F0006CE375 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = jclock/Controllers/FlashLight/AboutViewController.m; sourceTree = SOURCE_ROOT; };
+		39E30795173A97FB006CE375 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		39E30796173A97FB006CE375 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39E30731173A839F006CE375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E3077F173A8BE6006CE375 /* QuartzCore.framework in Frameworks */,
+				39E30738173A839F006CE375 /* UIKit.framework in Frameworks */,
+				39E3073A173A839F006CE375 /* Foundation.framework in Frameworks */,
+				39E3073C173A839F006CE375 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39E30750173A83A0006CE375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E30756173A83A0006CE375 /* SenTestingKit.framework in Frameworks */,
+				39E30757173A83A0006CE375 /* UIKit.framework in Frameworks */,
+				39E30758173A83A0006CE375 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39E3072B173A839F006CE375 = {
+			isa = PBXGroup;
+			children = (
+				39E3077E173A8BE6006CE375 /* QuartzCore.framework */,
+				39E3073D173A839F006CE375 /* jclock */,
+				39E3075B173A83A0006CE375 /* jclockTests */,
+				39E30736173A839F006CE375 /* Frameworks */,
+				39E30735173A839F006CE375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39E30735173A839F006CE375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39E30734173A839F006CE375 /* jclock.app */,
+				39E30754173A83A0006CE375 /* jclockTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39E30736173A839F006CE375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39E30737173A839F006CE375 /* UIKit.framework */,
+				39E30739173A839F006CE375 /* Foundation.framework */,
+				39E3073B173A839F006CE375 /* CoreGraphics.framework */,
+				39E30755173A83A0006CE375 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39E3073D173A839F006CE375 /* jclock */ = {
+			isa = PBXGroup;
+			children = (
+				39E30780173A8E37006CE375 /* Jee */,
+				39E3076C173A88E3006CE375 /* Controllers */,
+				39E3076D173A88E3006CE375 /* Views */,
+				39E30746173A839F006CE375 /* AppDelegate.h */,
+				39E30747173A839F006CE375 /* AppDelegate.m */,
+				39E3073E173A839F006CE375 /* Supporting Files */,
+			);
+			path = jclock;
+			sourceTree = "<group>";
+		};
+		39E3073E173A839F006CE375 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39E3073F173A839F006CE375 /* jclock-Info.plist */,
+				39E30740173A839F006CE375 /* InfoPlist.strings */,
+				39E30743173A839F006CE375 /* main.m */,
+				39E30745173A839F006CE375 /* jclock-Prefix.pch */,
+				39E30749173A839F006CE375 /* Default.png */,
+				39E3074B173A83A0006CE375 /* Default@2x.png */,
+				39E3074D173A83A0006CE375 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39E3075B173A83A0006CE375 /* jclockTests */ = {
+			isa = PBXGroup;
+			children = (
+				39E30761173A83A0006CE375 /* jclockTests.h */,
+				39E30762173A83A0006CE375 /* jclockTests.m */,
+				39E3075C173A83A0006CE375 /* Supporting Files */,
+			);
+			path = jclockTests;
+			sourceTree = "<group>";
+		};
+		39E3075C173A83A0006CE375 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39E3075D173A83A0006CE375 /* jclockTests-Info.plist */,
+				39E3075E173A83A0006CE375 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39E3076C173A88E3006CE375 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				39E3076E173A8A7F006CE375 /* DDMenuController.h */,
+				39E3076F173A8A7F006CE375 /* DDMenuController.m */,
+				39E30772173A8A9E006CE375 /* jLeftViewController.h */,
+				39E30773173A8A9E006CE375 /* jLeftViewController.m */,
+				39E30776173A8AAD006CE375 /* jRightViewController.h */,
+				39E30777173A8AAD006CE375 /* jRightViewController.m */,
+				39E3077A173A8ABD006CE375 /* jHomeViewController.h */,
+				39E3077B173A8ABD006CE375 /* jHomeViewController.m */,
+				39E30782173A8F1A006CE375 /* jBaseViewController.h */,
+				39E30783173A8F1A006CE375 /* jBaseViewController.m */,
+				39E30786173A97B2006CE375 /* About */,
+				39E30787173A97B2006CE375 /* FlashLight */,
+				39E30788173A97B2006CE375 /* Setting */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		39E3076D173A88E3006CE375 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		39E30780173A8E37006CE375 /* Jee */ = {
+			isa = PBXGroup;
+			children = (
+				39E30781173A8E4B006CE375 /* jBase.h */,
+			);
+			path = Jee;
+			sourceTree = "<group>";
+		};
+		39E30786173A97B2006CE375 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				39E30791173A97F0006CE375 /* AboutViewController.h */,
+				39E30792173A97F0006CE375 /* AboutViewController.m */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		39E30787173A97B2006CE375 /* FlashLight */ = {
+			isa = PBXGroup;
+			children = (
+				39E3078D173A97D7006CE375 /* FlashLightViewController.h */,
+				39E3078E173A97D7006CE375 /* FlashLightViewController.m */,
+			);
+			path = FlashLight;
+			sourceTree = "<group>";
+		};
+		39E30788173A97B2006CE375 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				39E30795173A97FB006CE375 /* SettingViewController.h */,
+				39E30796173A97FB006CE375 /* SettingViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39E30733173A839F006CE375 /* jclock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39E30766173A83A0006CE375 /* Build configuration list for PBXNativeTarget "jclock" */;
+			buildPhases = (
+				39E30730173A839F006CE375 /* Sources */,
+				39E30731173A839F006CE375 /* Frameworks */,
+				39E30732173A839F006CE375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jclock;
+			productName = jclock;
+			productReference = 39E30734173A839F006CE375 /* jclock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39E30753173A83A0006CE375 /* jclockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39E30769173A83A0006CE375 /* Build configuration list for PBXNativeTarget "jclockTests" */;
+			buildPhases = (
+				39E3074F173A83A0006CE375 /* Sources */,
+				39E30750173A83A0006CE375 /* Frameworks */,
+				39E30751173A83A0006CE375 /* Resources */,
+				39E30752173A83A0006CE375 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39E3075A173A83A0006CE375 /* PBXTargetDependency */,
+			);
+			name = jclockTests;
+			productName = jclockTests;
+			productReference = 39E30754173A83A0006CE375 /* jclockTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39E3072C173A839F006CE375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = wangdu;
+			};
+			buildConfigurationList = 39E3072F173A839F006CE375 /* Build configuration list for PBXProject "jclock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39E3072B173A839F006CE375;
+			productRefGroup = 39E30735173A839F006CE375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39E30733173A839F006CE375 /* jclock */,
+				39E30753173A83A0006CE375 /* jclockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39E30732173A839F006CE375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E30742173A839F006CE375 /* InfoPlist.strings in Resources */,
+				39E3074A173A839F006CE375 /* Default.png in Resources */,
+				39E3074C173A83A0006CE375 /* Default@2x.png in Resources */,
+				39E3074E173A83A0006CE375 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39E30751173A83A0006CE375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E30760173A83A0006CE375 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39E30752173A83A0006CE375 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39E30730173A839F006CE375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E30744173A839F006CE375 /* main.m in Sources */,
+				39E30748173A839F006CE375 /* AppDelegate.m in Sources */,
+				39E30770173A8A7F006CE375 /* DDMenuController.m in Sources */,
+				39E30774173A8A9E006CE375 /* jLeftViewController.m in Sources */,
+				39E30778173A8AAD006CE375 /* jRightViewController.m in Sources */,
+				39E3077C173A8ABD006CE375 /* jHomeViewController.m in Sources */,
+				39E30784173A8F1A006CE375 /* jBaseViewController.m in Sources */,
+				39E3078F173A97D7006CE375 /* FlashLightViewController.m in Sources */,
+				39E30793173A97F0006CE375 /* AboutViewController.m in Sources */,
+				39E30797173A97FB006CE375 /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39E3074F173A83A0006CE375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E30763173A83A0006CE375 /* jclockTests.m in Sources */,
+				39E30771173A8A7F006CE375 /* DDMenuController.m in Sources */,
+				39E30775173A8A9E006CE375 /* jLeftViewController.m in Sources */,
+				39E30779173A8AAD006CE375 /* jRightViewController.m in Sources */,
+				39E3077D173A8ABD006CE375 /* jHomeViewController.m in Sources */,
+				39E30785173A8F1A006CE375 /* jBaseViewController.m in Sources */,
+				39E30790173A97D7006CE375 /* FlashLightViewController.m in Sources */,
+				39E30794173A97F0006CE375 /* AboutViewController.m in Sources */,
+				39E30798173A97FB006CE375 /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39E3075A173A83A0006CE375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39E30733173A839F006CE375 /* jclock */;
+			targetProxy = 39E30759173A83A0006CE375 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39E30740173A839F006CE375 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39E30741173A839F006CE375 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39E3075E173A83A0006CE375 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39E3075F173A83A0006CE375 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39E30764173A83A0006CE375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39E30765173A83A0006CE375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39E30767173A83A0006CE375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jclock/jclock-Prefix.pch";
+				INFOPLIST_FILE = "jclock/jclock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39E30768173A83A0006CE375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jclock/jclock-Prefix.pch";
+				INFOPLIST_FILE = "jclock/jclock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		39E3076A173A83A0006CE375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/jclock.app/jclock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jclock/jclock-Prefix.pch";
+				INFOPLIST_FILE = "jclockTests/jclockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		39E3076B173A83A0006CE375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/jclock.app/jclock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jclock/jclock-Prefix.pch";
+				INFOPLIST_FILE = "jclockTests/jclockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39E3072F173A839F006CE375 /* Build configuration list for PBXProject "jclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E30764173A83A0006CE375 /* Debug */,
+				39E30765173A83A0006CE375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39E30766173A83A0006CE375 /* Build configuration list for PBXNativeTarget "jclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E30767173A83A0006CE375 /* Debug */,
+				39E30768173A83A0006CE375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39E30769173A83A0006CE375 /* Build configuration list for PBXNativeTarget "jclockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E3076A173A83A0006CE375 /* Debug */,
+				39E3076B173A83A0006CE375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39E3072C173A839F006CE375 /* Project object */;
+}
